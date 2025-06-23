@@ -33,7 +33,7 @@ services:
 
   hmdm:
     image: headwindmdm/hmdm:0.1.5
-    ports:
+    expose:
       # Uncomment this port forwarding if you want to use plain HTTP instead of HTTPS
       - 8080:8080
       - 443:8443
